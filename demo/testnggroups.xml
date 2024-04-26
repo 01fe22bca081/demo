@@ -1,0 +1,16 @@
+<suite name="test_suite">
+<test name="test">
+<groups>
+<run>
+<include name="pageNavigation"/>
+</run>
+</groups>
+<classes>
+<class name="HomePageNavigationTest"/>
+<class name="ContactPageNavigationTest"/>
+<class name="AboutPageNavigationTest"/>
+</classes>
+</test>
+<!--  Test  -->
+</suite>
+<!--  Suite  -->

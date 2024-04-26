@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: ParallelTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.633 s <<< FAILURE! - in ParallelTest
+ParallelTest.FirefoxTest  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/internal/Lock
+	at ParallelTest.FirefoxTest(ParallelTest.java:12)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.internal.Lock
+	at ParallelTest.FirefoxTest(ParallelTest.java:12)
+
