@@ -1,3 +1,4 @@
+//3.	Implement a TestNG test class to navigate through different web pages of a website, validating page transitions and displaying the name of  visited current page for verification."
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
